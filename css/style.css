@@ -41,7 +41,7 @@ body {
 
 .logo {
   width: 100%;
-  max-width: 240px;
+  max-width: 300px;
 
   position: absolute;
   top: 0;
@@ -72,7 +72,7 @@ h1 {
 
   .logo {
     width: 100%;
-    max-width: 130px;
+    max-width: 190px;
   }
 
   h1 {
@@ -90,7 +90,7 @@ h1 {
 
   .logo {
     width: 100%;
-    max-width: 150px;
+    max-width: 240px;
   }
 
   h1 {
