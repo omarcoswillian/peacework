@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e52d0d;
+  font-family: Montserrat;
+  letter-spacing: -0.04em;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("../img/bgheader.webp");
+  background-size: cover;
+  background-position: top center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.logo {
+  width: 100%;
+  max-width: 240px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 150px;
+  font-weight: 600;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("../img/bgheadermob.webp");
+    background-size: cover;
+    background-position: top center;
+  }
+
+  .logo {
+    width: 100%;
+    max-width: 130px;
+  }
+
+  h1 {
+    font-size: 14.5vw;
+    font-weight: 600;
+  }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    width: 100%;
+    max-width: 150px;
+  }
+
+  h1 {
+    font-size: 90px;
+    font-weight: 600;
+  }
+}
+
+/* -----------------------------------------------------------
+==============================================================
+--------------------------------------------------------------
+                ███╗   ███╗      ██╗    ██╗
+                ████╗ ████║      ██║    ██║
+                ██╔████╔██║      ██║ █╗ ██║
+                ██║╚██╔╝██║      ██║███╗██║
+                ██║ ╚═╝ ██║      ╚███╔███╔╝
+                ╚═╝     ╚═╝ ██║   ╚══╝╚══╝ ██║
+
+                      Marcos Willian © 2025
+--------------------------------------------------------------  
+==============================================================
+----------------------------------------------------------- */
